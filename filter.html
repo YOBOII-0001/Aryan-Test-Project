@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Organization Details</title>
+    <link rel="stylesheet" type="text/css" href="/filter-style.css">
+</head>
+<body>
+    <header>
+        <h1>Organization Details</h1>
+        <div id="filters">
+            <label for="orgTypeFilter">Filter by Organization Type:</label>
+            <select id="orgTypeFilter">
+                <option value="all">All</option>
+                <option value="government">Government</option>
+                <option value="ngo">NGO</option>
+                <!-- Add more options as needed -->
+            </select>
+        </div>
+    </header>
+    
+    <div id="orgList" class="org-list">
+        <!-- Organization details will be displayed here -->
+    </div>
+    
+    <script src="/filter.js"></script>
+</body>
+</html>
